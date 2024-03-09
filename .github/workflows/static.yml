@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: '16'
       - run: |
-          npm install
+          npm init -y
           npm ci
       - run: npm run build
       - name: Copiar readme and license en wwwroot
