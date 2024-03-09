@@ -52,8 +52,8 @@ jobs:
           cd docs/.vuepress/dist
           git init
           git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "dabl03@outlook.com"
+          git config --local user.name "dabl03"
           git commit -m 'deploy'
       - name: Force push to destination branch
         uses: ad-m/github-push-action@v0.5.0
